@@ -38,6 +38,7 @@ fun main(){
     var reversedNumber = 0
     var temp = 0
 
+
     while (number > 0) {
         //modulus operator used to strip off the last digit
         temp = number % 10
