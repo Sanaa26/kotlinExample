@@ -1,16 +1,14 @@
-class Demo {
-    val myName: String by lazy {
-        println("Welcome to Lazy declaration")
-        "www.tutorialspoint.com"
+fun main(){
+
+    val user : UserDetail by lazy{ UserDetail("Sana","28")}
+    println(user.toString())
+}
+
+
+class UserDetail(val name: String, val age: String){
+
+    init{
+        println("This name is $name")
+        println("This age is $age")
     }
 }
-
-fun main() {
-    val obj=Demo()
-    println(obj.myName);
-    println("Second time call to the same object--"+obj.myName);
-}
-
-
-
-
