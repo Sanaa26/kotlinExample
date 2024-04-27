@@ -14,5 +14,7 @@ public class DuplicateElement {
                     System.out.println(arr[j]);
             }
         }
+
     }
 }
+

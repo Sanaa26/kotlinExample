@@ -1,5 +1,5 @@
 
-    fun main(args: Array<String>) {
+    fun main() {
         println(isPrime(19)) // true
         println(isPrime(49)) // false
     }

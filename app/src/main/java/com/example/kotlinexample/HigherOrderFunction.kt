@@ -1,4 +1,6 @@
 fun main(){
+    val printerString= "Hello"
+    val printerFunction: (String)-> Unit = {str-> println(str)}
     val numbers = listOf(1, 2, 3, 4, 5)
 
     val evenNumbers = numbers.filter { it % 2 == 0 }
@@ -17,4 +19,8 @@ fun main(){
 
 fun multiplier(factor: Int): (Int) -> Int {
     return { number -> factor * number }
+}
+
+fun highOrderFunction(string:String,printer: (String)->Unit){
+    printer(string)
 }

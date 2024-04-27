@@ -14,11 +14,8 @@
 //    println("Smallest Number is : $smallest")
 //
 //}
-
-
     fun main() {
-        val numbers = intArrayOf(10, 5, 23, 99, 45, 78, 12, 88, 34)
-        var max = numbers[0] // Assume the first element is the maximum
+       // Assume the first element is the maximum
 
         val num = intArrayOf(1,2,3,4,5,6,8,89)
         var maximum = num[0]
@@ -28,18 +25,21 @@
                 maximum = num[i]
             }
         }
+    val n = arrayOf(1,2,3,4,5)
+    var max= n[0]
+    for(i in 1 until n.size){
+        if (n[i]>max){
+            max= n[i]
+        }
+    }
+
+
+
 
         // Iterate through the array to find the largest number
-        for (i in 1 until numbers.size) {
-            if (numbers[i] > max) {
-                max = numbers[i] // Update max if a larger number is found
-            }
-        }
-
-
 
         println("the large numbers in the array is $maximum")
 
 
-        println("The largest number in the array is: $max")
+
     }

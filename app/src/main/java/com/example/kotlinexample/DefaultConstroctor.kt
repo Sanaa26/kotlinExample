@@ -4,6 +4,7 @@ fun main(){
 
     val obj = Calculator()
     println(obj.add(2,4))
+    println(obj.multilpay(3,3))
 }
 
 class Calculator{

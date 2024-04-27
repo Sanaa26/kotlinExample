@@ -21,5 +21,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Next Activity"
+        app:layout_constraintEnd_toEndOf="@id/btnStartActivity"
+        app:layout_constraintStart_toStartOf="@id/btnStartActivity"
+        app:layout_constraintTop_toBottomOf="@id/btnStartActivity"
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
